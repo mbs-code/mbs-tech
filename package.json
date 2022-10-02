@@ -1,0 +1,21 @@
+{
+  "name": "mbs-tech",
+  "version": "0.0.1",
+  "description": "tech blog",
+  "private": true,
+  "authors": {
+    "name": "mbs-code",
+    "email": "mbscodec@gmail.com"
+  },
+  "repository": "https://github.com/mbs-code/mbs-tech.git",
+  "scripts": {
+    "dev": "yarn docs:dev",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51",
+    "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
+  }
+}
